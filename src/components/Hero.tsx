@@ -3,7 +3,7 @@ import { SOCIAL_LINKS } from "../constants/data";
 
 export const Hero = () => {
   return (
-    <header className="min-h-[90vh] flex items-center justify-center bg-gradient-to-br from-[#667eea] via-[#764ba2] to-[#667eea] animate-background-shift relative overflow-hidden px-8 py-8">
+    <header className="min-h-[90vh] flex items-center justify-center bg-linear-to-r from-[#667eea] via-[#764ba2] to-[#667eea] animate-background-shift relative overflow-hidden px-8 py-8">
       <div className="absolute inset-0">
         <div className="absolute top-20 left-20 w-2 h-2 bg-white/20 rounded-full animate-float animate-delay-100"></div>
         <div className="absolute top-40 right-32 w-1 h-1 bg-blue-300/30 rounded-full animate-gentle-bounce animate-delay-200"></div>
@@ -26,7 +26,7 @@ export const Hero = () => {
 
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 leading-tight animate-title-reveal">
           React.js + Docker
-          <span className="block bg-gradient-to-r from-[#4facfe] to-[#00f2fe] bg-clip-text text-transparent">
+          <span className="block bg-linear-to-r from-[#4facfe] to-[#00f2fe] bg-clip-text text-transparent">
             Sample Project
           </span>
         </h1>
